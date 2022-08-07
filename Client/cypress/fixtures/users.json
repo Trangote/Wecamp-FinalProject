@@ -1,0 +1,61 @@
+[
+    {
+      "firstname":"Trang",
+      "lastname": "Nguyen",
+      "email": "trang@gmail.com",
+      "password": "123456"
+    },
+    {
+      "email": "hoa@gmail.com",
+      "password": "123456"
+    },
+    {
+      "email": "trang@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "firstname":"Trang",
+      "lastname": "Nguyen",
+      "email": "trang@.com",
+      "password": "1234567"
+    },
+    {
+      "firstname":"My",
+      "lastname": "Hoang",
+      "email": "my@gmail.com",
+      "password": "123456"
+    },
+    {
+      "firstname":"Kim",
+      "lastname": "My",
+      "email": "kim@gmail.com"
+    },
+    {
+      "firstname":"Thai",
+      "lastname": "My",
+      "email": "thai@gmail.com",
+      "password": "123"
+    },
+    {
+      "email": "trang@gmail.com"
+    },
+    {
+      "password": "123456"
+    },
+    {
+      "firstname":"Kim",
+      "lastname": "My",
+      "password": "123456"
+    },
+    {
+      "lastname": "My",
+      "email": "trang@gmail.com",
+      "password": "123456"
+    },
+    {
+      "firstname": "Kim",
+      "email": "trang@gmail.com",
+      "password": "123456"
+    }
+]
+

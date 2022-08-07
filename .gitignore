@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -102,3 +103,31 @@ dist
 
 # TernJS port file
 .tern-port
+=======
+
+API/node_modules/
+
+# dependencies
+Client/node_modules
+Client/.pnp
+.pnp.js
+
+# testing
+Client/coverage
+
+# production
+Client/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+Backend/node_modules/
+>>>>>>> feature

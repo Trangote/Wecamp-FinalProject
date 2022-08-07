@@ -1,0 +1,46 @@
+[
+    {
+        "hour": 1,
+        "day":"11",
+        "roomName":"Room 5",
+        "room":"62ef5d0bebdee30748dc9a28"
+    },
+    {
+        "hour": 1,
+        "movie":"62e154d86b37fc1f98c17064",
+        "movieName":"Nobita33",
+        "day":"05",
+        "roomName":"Room 5",
+        "room":"62ef5d0bebdee30748dc9a28"
+    },
+    {
+        "hour": "abc",
+        "movie":"62e154d86b37fc1f98c17064",
+        "movieName":"Nobita33",
+        "day":"05",
+        "roomName":"Room 5",
+        "room":"62ef5d0bebdee30748dc9a28"
+    },
+    {
+        "hour": "-1",
+        "movie":"62e154d86b37fc1f98c17064",
+        "movieName":"Nobita33",
+        "day":"05",
+        "roomName":"Room 5",
+        "room":"62ef5d0bebdee30748dc9a28"
+    },
+    {
+        "hour": "@.",
+        "movie":"62e154d86b37fc1f98c17064",
+        "movieName":"Nobita33",
+        "day":"05",
+        "roomName":"Room 5",
+        "room":"62ef5d0bebdee30748dc9a28"
+    },
+    {
+        "hour": 1,
+        "movie":"62e154d86b37fc1f98c17064",
+        "movieName":"Nobita33",
+        "day":"05"
+    }
+]
