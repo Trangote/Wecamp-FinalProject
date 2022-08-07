@@ -15,7 +15,7 @@ class Navbar extends Component {
           <div className="navbar-fixed">
             <nav className="z-depth-0">
               <div className="nav-wrapper indigo">
-                <Link
+                 {/* <Link
                   to="/"
                   style={{
                     fontFamily: "monospace",
@@ -24,7 +24,7 @@ class Navbar extends Component {
                 >
                   <i className="material-icons">code</i>
                   MERN
-                </Link>
+                </Link>  */}
                 <ul className="right hide-on-med-and-down">
                   <li>
                     <Link to="/room-creator">Add room</Link>

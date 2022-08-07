@@ -1,0 +1,29 @@
+[
+    {
+        "row":-2,
+        "col":-3,
+        "name":"Room 5",
+        "description":"This experience is heavily influenced by the acoustic properties of the room. We take care to ensure that the room is ‘treated’ so that the room can portray the audio experience the director intended when he shot the film whether that is feeling like you are floating around in space or enclosed in a tiny space capsule!"
+    },
+    {
+        "row":2,
+        "col":3,
+        "description":"This experience is heavily influenced by the acoustic properties of the room. We take care to ensure that the room is ‘treated’ so that the room can portray the audio experience the director intended when he shot the film whether that is feeling like you are floating around in space or enclosed in a tiny space capsule!"
+    },
+    {
+        "col":3,
+        "name":"Room 5",
+        "description":"This experience is heavily influenced by the acoustic properties of the room. We take care to ensure that the room is ‘treated’ so that the room can portray the audio experience the director intended when he shot the film whether that is feeling like you are floating around in space or enclosed in a tiny space capsule!"
+    },
+    {
+        "row":2,
+        "name":"Room 5",
+        "description":"This experience is heavily influenced by the acoustic properties of the room. We take care to ensure that the room is ‘treated’ so that the room can portray the audio experience the director intended when he shot the film whether that is feeling like you are floating around in space or enclosed in a tiny space capsule!"
+    },
+     {
+        "row":2,
+        "col":3,
+        "name":"Room 5",
+        "description":"This experience is heavily influenced by the acoustic properties of the room. We take care to ensure that the room is ‘treated’ so that the room can portray the audio experience the director intended when he shot the film whether that is feeling like you are floating around in space or enclosed in a tiny space capsule!"
+    }
+]

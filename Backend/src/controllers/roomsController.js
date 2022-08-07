@@ -17,9 +17,6 @@ export default {
       roomName: req.body.roomName,
       roomDescription: req.body.roomDescription,
       roomSeatsPlan: req.body.roomSeatsPlan,
-      // roomName: 'Test room',
-      // roomDescription: 'Lorem ipsum',
-      // roomSeatsPlan: [[true,false]]
     }).save();
 
     return res.status(201).send({ data: room, message: `Room was created` });
@@ -33,7 +30,16 @@ export default {
     room.roomDescription = req.body.roomDescription;
     room.roomSeatsPlan = req.body.roomSeatsPlan;
 
-    await room.save();
+    // await room.save();
+    await Room.updateOne(
+      { slug: req.params.slug },
+      {
+        $set: {
+          roomName : req.body.roomName,
+          roomDescription : req.body.roomDescription,
+          roomSeatsPlan : req.body.roomSeatsPlan
+        },
+      })
 
     return res.status(200).send({ data: room, message: `Room was updated` });
   },

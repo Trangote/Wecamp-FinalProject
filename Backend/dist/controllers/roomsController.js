@@ -86,10 +86,7 @@ var _default = {
               return new _room["default"]({
                 roomName: req.body.roomName,
                 roomDescription: req.body.roomDescription,
-                roomSeatsPlan: req.body.roomSeatsPlan // roomName: 'Test room',
-                // roomDescription: 'Lorem ipsum',
-                // roomSeatsPlan: [[true,false]]
-
+                roomSeatsPlan: req.body.roomSeatsPlan
               }).save();
 
             case 2:
@@ -132,9 +129,18 @@ var _default = {
             case 5:
               room.roomName = req.body.roomName;
               room.roomDescription = req.body.roomDescription;
-              room.roomSeatsPlan = req.body.roomSeatsPlan;
+              room.roomSeatsPlan = req.body.roomSeatsPlan; // await room.save();
+
               _context4.next = 10;
-              return room.save();
+              return _room["default"].updateOne({
+                slug: req.params.slug
+              }, {
+                $set: {
+                  roomName: req.body.roomName,
+                  roomDescription: req.body.roomDescription,
+                  roomSeatsPlan: req.body.roomSeatsPlan
+                }
+              });
 
             case 10:
               return _context4.abrupt("return", res.status(200).send({

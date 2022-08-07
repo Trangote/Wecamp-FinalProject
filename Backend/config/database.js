@@ -1,3 +1,3 @@
 export default {
-  mongoUrl: "mongodb://mongo:27017/cinema-test",
+  mongoUrl: "mongodb://127.0.0.1:27017/cinema",
 };

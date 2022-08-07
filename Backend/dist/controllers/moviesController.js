@@ -144,7 +144,15 @@ var _default = {
               movie.movieDescription = req.body.movieDescription;
               movie.movieImgUrl = req.body.movieImgUrl;
               _context4.next = 10;
-              return movie.save();
+              return _movie["default"].updateOne({
+                _id: req.params.id
+              }, {
+                $set: {
+                  title: req.body.movieName,
+                  movieDescription: req.body.movieDescription,
+                  movieImgUrl: req.body.movieImgUrl
+                }
+              });
 
             case 10:
               return _context4.abrupt("return", res.status(200).send({

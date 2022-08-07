@@ -137,9 +137,16 @@ var _default = {
               return _context4.abrupt("return", next());
 
             case 5:
-              seanse.bookings = req.body.bookings;
+              seanse.bookings = req.body.bookings; // await seanse.save();
+
               _context4.next = 8;
-              return seanse.save();
+              return _seanse["default"].updateOne({
+                _id: req.params.id
+              }, {
+                $set: {
+                  bookings: req.body.bookings
+                }
+              });
 
             case 8:
               return _context4.abrupt("return", res.status(200).send({

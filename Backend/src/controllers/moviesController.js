@@ -36,8 +36,16 @@ export default {
     movie.title = req.body.movieName;
     movie.movieDescription = req.body.movieDescription;
     movie.movieImgUrl = req.body.movieImgUrl;
-
-    await movie.save();
+    
+    await Movie.updateOne(
+      { _id: req.params.id },
+      {
+        $set: {
+          title : req.body.movieName,
+          movieDescription : req.body.movieDescription,
+          movieImgUrl : req.body.movieImgUrl
+        },
+      })
 
     return res.status(200).send({ data: movie, message: `Movie was updated` });
   },

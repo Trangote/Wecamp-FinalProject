@@ -34,7 +34,14 @@ export default {
 
     seanse.bookings = req.body.bookings;
 
-    await seanse.save();
+    // await seanse.save();
+    await Seanse.updateOne(
+      { _id: req.params.id },
+      {
+        $set: {
+          bookings : req.body.bookings
+        },
+      })
 
     return res
       .status(200)
